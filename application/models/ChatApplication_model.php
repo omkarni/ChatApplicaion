@@ -9,7 +9,8 @@ class ChatApplication_model extends CI_Model
     }
 
 	//get User Data manually
-    public function getData($select, $from, $where = ''){
+    public function getData($select, $from, $where = '')
+    {
 
     	$select = (!empty($select))?$select:'*';
 

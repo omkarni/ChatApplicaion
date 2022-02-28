@@ -13,8 +13,10 @@ class ChatApplicationController extends CI_Controller {
 
 	public function index()
 	{
-		$userData = $this->table->getData('*','user');
+		/* $userData = $this->table->getData('*','user');
 		echo "<pre>";
-		print_r($userData);
+		print_r($userData); */
+
+		$this->load->view('login_view');
 	}
 }
