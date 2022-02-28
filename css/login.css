@@ -30,6 +30,7 @@
   }
   
   input[type="email"],
+  input[type="name"],
   input[type="password"] {
     border: none;
     outline: none;
@@ -101,6 +102,10 @@
     background: #ee5645;
     color: #fff;
     padding: 1rem;
+  }
+
+  .error_diplay{
+    color: #ee5645;
   }
   
   /* ....///Media query///..... */
