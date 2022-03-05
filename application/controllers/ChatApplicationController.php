@@ -12,6 +12,8 @@ class ChatApplicationController extends CI_Controller {
 
 	public function index()
 	{
+        // ClientSecret = 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
+        // CLientId = 67162551978-8arvh6f1cmtc1se0783dgto1fbmhis2k.apps.googleusercontent.com
 
         $this->load->library('form_validation');
         $this->form_validation->set_rules('username', 'Username', 'trim|required');
